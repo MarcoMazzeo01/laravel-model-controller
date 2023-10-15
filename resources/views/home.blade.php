@@ -10,6 +10,7 @@
         @forelse ($movies as $movie)
             <div class="col-3">@include('partials._card')</div>
         @empty
+            <p>Nessun film trovato.</p>
         @endforelse
     </div>
 
